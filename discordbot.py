@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def えらい(ctx):
+async def 'えらい'(ctx):
     await ctx.send('えらい')
 
 
